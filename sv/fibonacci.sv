@@ -1,3 +1,5 @@
+`timescale 1ns/1ns
+
 module fibonacci(
   input logic clk, 
   input logic reset,
@@ -8,10 +10,11 @@ module fibonacci(
 
   // TODO: Add local logic signals
   enum logic [1:0] {init, add, finish} state, next_state;
-  logic done_c, dout_c;
+  logic done_c; 
+  logic [15:0] dout_c;
   logic [15:0] minus_1, minus_2;
   logic [15:0] minus_1_c, minus_2_c;
-  logic count;
+  logic [15:0] count;
 
   always_ff @(posedge clk, posedge reset)
   begin
