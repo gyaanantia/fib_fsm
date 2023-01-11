@@ -10,10 +10,9 @@ module fibonacci(
 
   // TODO: Add local logic signals
   enum logic [1:0] {init, add, finish} state, next_state;
-  logic done_c; 
+  logic done_c, start_clk; 
   logic [15:0] dout_c;
-  logic [15:0] minus_1, minus_2;
-  logic [15:0] minus_1_c, minus_2_c;
+  logic [15:0] minus_1, minus_2, minus_1_c, minus_2_c;
   logic [15:0] count;
 
   always_ff @(posedge clk, posedge reset)
@@ -30,6 +29,7 @@ module fibonacci(
        done <= done_c;
        minus_1 <= minus_1_c;
        minus_2 <= minus_2_c;
+       start_clk <= start;
     end
   end
 
@@ -37,7 +37,7 @@ module fibonacci(
   begin
     case (state)
        init:
-            if (start == 1'b1) begin
+            if (start_clk == 1'b1) begin
               done_c = 1'b0;
               if (din > 1) begin
                 count = 1;

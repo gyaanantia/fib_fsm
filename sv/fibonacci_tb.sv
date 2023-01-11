@@ -51,6 +51,50 @@ module fibonacci_tb;
 	   TEST MORE INPUTS HERE
 	   ---------------------
 	*/
+	// #0 reset = 0;
+	// #10 reset = 1;
+	// #10 reset = 0;
+	#10;
+	din = 16'd6;
+	start = 1'b1;
+	#10 start = 1'b0;
+	
+	// Wait until calculation is done	
+	#10 wait (done == 1'b1);
+
+	#10;
+	din = 16'd0;
+	start = 1'b1;
+	#10 start = 1'b0;
+	
+	// Wait until calculation is done	
+	#10 wait (done == 1'b1);
+
+	#10;
+	din = 16'd4;
+	start = 1'b1;
+	#10 start = 1'b0;
+	
+	// Wait until calculation is done	
+	#10 wait (done == 1'b1);
+
+	#10;
+	din = 16'd1;
+	start = 1'b1;
+	#10 start = 1'b0;
+	
+	// Wait until calculation is done	
+	#10 wait (done == 1'b1);
+
+	#10;
+	din = 16'd12;
+	start = 1'b1;
+	#10 start = 1'b0;
+	
+	// Wait until calculation is done	
+	#10 wait (done == 1'b1);
+
+
 
     // Done
 	$stop;
