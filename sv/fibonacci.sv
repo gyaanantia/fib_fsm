@@ -13,7 +13,7 @@ module fibonacci(
   logic done_c, start_clk; 
   logic [15:0] dout_c;
   logic [15:0] minus_1, minus_2, minus_1_c, minus_2_c;
-  logic [15:0] count;
+  logic [15:0] count, count_c;
 
   always_ff @(posedge clk, posedge reset)
   begin
@@ -23,12 +23,14 @@ module fibonacci(
        done <= 1'b0;
        minus_1 <= 16'b0;
        minus_2 <= 16'b0;
+       count <= 16'b0;
     end else begin
        state <= next_state;
        dout <= dout_c;
        done <= done_c;
        minus_1 <= minus_1_c;
        minus_2 <= minus_2_c;
+       count <= count_c;
        start_clk <= start;
     end
   end
@@ -40,7 +42,7 @@ module fibonacci(
             if (start_clk == 1'b1) begin
               done_c = 1'b0;
               if (din > 1) begin
-                count = 1;
+                count_c = 2;
                 minus_2_c = 0;
                 minus_1_c = 1;
                 next_state = add;
@@ -55,7 +57,7 @@ module fibonacci(
             dout_c = minus_2 + minus_1;
             minus_2_c = minus_1;
             minus_1_c = minus_2 + minus_1;
-            count = count + 1;
+            count_c = count + 1;
             if (count == din) next_state = finish;
             else next_state = add;
           end
