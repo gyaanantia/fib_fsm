@@ -1,0 +1,8 @@
+/home/gfa2226/fpga/fibonacci/sv/fibonacci_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/gfa2226/fpga/fibonacci/sv/fibonacci_tb.sv
+QuestaSim vlog 2019.3_2 Compiler 2019.09 Sep 24 2019
+-- Compiling module fibonacci_tb
+
+Top level modules:
+	fibonacci_tb
+
+} {} {}}

@@ -1,0 +1,41 @@
+i done_c8
+m 0 0
+u 64 64
+n ckid0_0 {t:minus_1_c[15].C} Clock source is invalid for GCC
+p {t:done_c8.OUT}{t:minus_1_c[15].C}
+e ckid0_0 {t:minus_1_c[15].C} latr
+d ckid0_0 {t:done_c8.OUT} and Clock source is invalid for GCC
+i un1_start_clk
+m 0 0
+u 2 2
+n ckid0_1 {t:next_state[1].C} Clock source is invalid for GCC
+p {t:un1_start_clk.OUT}{t:next_state[1].C}
+e ckid0_1 {t:next_state[1].C} latr
+d ckid0_1 {t:un1_start_clk.OUT} or Clock source is invalid for GCC
+i done_c9
+m 0 0
+u 1 1
+n ckid0_2 {t:done_c.C} Clock source is invalid for GCC
+p {t:done_c9.OUT}{t:done_c.C}
+e ckid0_2 {t:done_c.C} latr
+d ckid0_2 {t:done_c9.OUT} and Clock source is invalid for GCC
+i clk
+m 0 0
+u 6 52
+p {p:clk}{t:state[1:0].C}
+e ckid0_3 {t:state[1:0].C} dffr
+c ckid0_3 {p:clk} Unconstrained_port Inferred clock from port
+i state[1]
+m 0 0
+u 0 0
+d ckid0_4 {t:state[1:0].Q[1]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i state[0]
+m 0 0
+u 0 0
+d ckid0_5 {t:state[1:0].Q[0]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i start_clk
+m 0 0
+u 0 0
+d ckid0_6 {t:start_clk.Q[0]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

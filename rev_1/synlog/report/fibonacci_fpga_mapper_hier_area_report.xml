@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about resource utilization per module to be displayed in the summary report.
+*******************************************************************************************-->
+<modules>
+<column_headers>
+<data>Module name</data>
+<data>LUT4</data>
+<data>DFF</data>
+<data>ALU</data>
+<data>MUX2</data>
+<data>BRAM</data>
+<data>LRAM</data>
+<data>BMACC</data>
+<data>PADS</data>
+</column_headers>
+<module>
+<data>fibonacci</data>
+<data>38</data>
+<data>52</data>
+<data>29</data>
+<data>0</data>
+<data>0</data>
+<data>0</data>
+<data>0</data>
+<data>36</data>
+</module>
+</modules>

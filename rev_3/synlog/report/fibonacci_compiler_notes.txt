@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":3:7:3:15|Synthesizing module fibonacci in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":3:7:3:15|Selected library: work cell: fibonacci view verilog as top level
+@N: NF107 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":3:7:3:15|Selected library: work cell: fibonacci view verilog as top level
+@N|Running in 64-bit mode
+

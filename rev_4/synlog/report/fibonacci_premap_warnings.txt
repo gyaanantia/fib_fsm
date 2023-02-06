@@ -1,0 +1,3 @@
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@W: MT531 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":40:4:40:7|Found signal identified as System clock which controls 67 sequential elements including done_c.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":18:2:18:10|Found inferred clock fibonacci|clk which controls 68 sequential elements including state[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

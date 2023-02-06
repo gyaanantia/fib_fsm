@@ -1,0 +1,148 @@
+<html><body><samp><pre>
+<!@TC:1673399409>
+# Tue Jan 10 19:10:08 2023
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.7 (Ootpa)
+Hostname: joker.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 62381
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_2
+<a name=mapperReport29></a>Synopsys Achronix Technology Pre-mapping, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1673399409> | No constraint file specified. 
+@N:<a href="@N:MF284:@XP_HELP">MF284</a> : <!@TM:1673399409> | Setting synthesis effort to medium for the design 
+Linked File:  <a href="/home/gfa2226/fpga/fibonacci/rev_2/fibonacci_scck.rpt:@XP_FILE">fibonacci_scck.rpt</a>
+Printing clock  summary report in "/home/gfa2226/fpga/fibonacci/rev_2/fibonacci_scck.rpt" file 
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1673399409> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1673399409> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1673399409> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N:<a href="@N:MF284:@XP_HELP">MF284</a> : <!@TM:1673399409> | Setting synthesis effort to medium for the design 
+@N:<a href="@N:MH105:@XP_HELP">MH105</a> : <!@TM:1673399409> | UMR3 is only supported for HAPS-80. 
+@N:<a href="@N:MH105:@XP_HELP">MH105</a> : <!@TM:1673399409> | UMR3 is only supported for HAPS-80. 
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 152MB)
+
+@N:<a href="@N:MF578:@XP_HELP">MF578</a> : <!@TM:1673399409> | Incompatible asynchronous control logic preventing generated clock conversion. Check "Force Generated Clock Conversion with Asynchronous Signals" in "GCC & Prototyping Tools" tab or set force_async_genclk_conv option to 1 in project file to enable. This should only be set if asynchronous control logic cannot cause a clock edge. 
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 152MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 152MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 152MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 152MB)
+
+
+
+<a name=mapperReport30></a>Clock Summary</a>
+******************
+
+          Start             Requested     Requested     Clock        Clock                     Clock
+Level     Clock             Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------
+0 -       System            200.0 MHz     5.000         system       system_clkgroup           67   
+                                                                                                    
+0 -       fibonacci|clk     200.0 MHz     5.000         inferred     Autoconstr_clkgroup_0     68   
+====================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                  Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
+Clock             Load      Pin           Seq Example      Seq Example       Comb Example 
+------------------------------------------------------------------------------------------
+System            67        -             count_c[0].C     -                 -            
+                                                                                          
+fibonacci|clk     68        clk(port)     start_clk.C      -                 -            
+==========================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT531:@XP_HELP">MT531</a> : <a href="/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv:40:4:40:8:@W:MT531:@XP_MSG">fibonacci.sv(40)</a><!@TM:1673399409> | Found signal identified as System clock which controls 67 sequential elements including minus_1_c[15].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv:18:2:18:11:@W:MT529:@XP_MSG">fibonacci.sv(18)</a><!@TM:1673399409> | Found inferred clock fibonacci|clk which controls 68 sequential elements including state[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+<a name=clockReport31></a>#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[</a>
+
+1 non-gated/non-generated clock tree(s) driving 68 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 67 clock pin(s) of sequential element(s)
+0 instances converted, 67 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+<a href="@|L:/home/gfa2226/fpga/fibonacci/rev_2/synwork/fibonacci_prem.srm@|S:clk@|E:state[1:0]@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3 @XP_NAMES_BY_PROP">ClockId_0_3</a>       clk                 Unconstrained_port     68         state[1:0]     
+=======================================================================================
+======================================================== Gated/Generated Clocks =========================================================
+Clock Tree ID     Driving Element       Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                    
+-----------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|L:/home/gfa2226/fpga/fibonacci/rev_2/synwork/fibonacci_prem.srm@|S:done_c8.OUT@|E:minus_1_c[15]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0 @XP_NAMES_BY_PROP">ClockId_0_0</a>       done_c8.OUT           and                    64                     minus_1_c[15]       Clock source is invalid for GCC
+<a href="@|L:/home/gfa2226/fpga/fibonacci/rev_2/synwork/fibonacci_prem.srm@|S:un1_start_clk.OUT@|E:next_state[1]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1 @XP_NAMES_BY_PROP">ClockId_0_1</a>       un1_start_clk.OUT     or                     2                      next_state[1]       Clock source is invalid for GCC
+<a href="@|L:/home/gfa2226/fpga/fibonacci/rev_2/synwork/fibonacci_prem.srm@|S:done_c9.OUT@|E:done_c@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2 @XP_NAMES_BY_PROP">ClockId_0_2</a>       done_c9.OUT           and                    1                      done_c              Clock source is invalid for GCC
+=========================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1673399409> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1673399409> | Writing default property annotation file /home/gfa2226/fpga/fibonacci/rev_2/fibonacci.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 163MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jan 10 19:10:09 2023
+
+###########################################################]
+
+</pre></samp></body></html>

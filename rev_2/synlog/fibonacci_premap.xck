@@ -1,0 +1,4 @@
+ckid0_0:@|S:done_c8.OUT@|E:minus_1_c[15]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:un1_start_clk.OUT@|E:next_state[1]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_2:@|S:done_c9.OUT@|E:done_c@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
+ckid0_3:@|S:clk@|E:state[1:0]@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3

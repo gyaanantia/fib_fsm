@@ -1,0 +1,19 @@
+@P:  Worst Slack : 2.603
+@P:  fibonacci|clk - Estimated Frequency : 417.2 MHz
+@P:  fibonacci|clk - Requested Frequency : 200.0 MHz
+@P:  fibonacci|clk - Estimated Period : 2.397
+@P:  fibonacci|clk - Requested Period : 5.000
+@P:  fibonacci|clk - Slack : 2.603
+@P:  System - Estimated Frequency : 1899.3 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 0.527
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 4.473
+@P: fibonacci Part : ac22ihd1000f53c1
+@P: fibonacci I/O primitives : 36
+@P: fibonacci BRAM : 0 of 1026 (0%)
+@P: fibonacci LRAM : 0 of 6156 (0%)
+@P: fibonacci ALU : 21 of 139968 (0%)
+@P: fibonacci LUT4 : 38 of 699840 (0.0%)
+@P: fibonacci DFF  : 68 of 699840 (0.0%)
+@P:  CPU Time : 0h:00m:00s

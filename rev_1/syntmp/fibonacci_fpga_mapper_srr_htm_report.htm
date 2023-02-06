@@ -1,0 +1,648 @@
+<html><body><samp><pre>
+<!@TC:0>
+[html][body][samp][pre]
+[!@TC:1673397681]
+# Tue Jan 10 18:41:20 2023
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.7 (Ootpa)
+Hostname: joker.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 62381
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+[a name=mapperReport32][/a]Synopsys Achronix Technology Mapper, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52[/a]
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: : <a href="@N:MF284:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Setting synthesis effort to medium for the design 
+@N: : <a href="@N:MF916:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Option synthesis_strategy=base is enabled.  
+@N: : <a href="@N:MF248:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Running in 64-bit mode. 
+@N: : <a href="@N:MF666:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: : <a href="@N:MF284:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Setting synthesis effort to medium for the design 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 152MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: : <a href="@N:MT206:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Auto Constrain mode is enabled 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 152MB)
+
+@N: : <a href="@N:MF179:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Found 16 by 16 bit equality operator ('==') next_state10 (in view: work.fibonacci(verilog)) 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 152MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 153MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.07ns		  87 /        52
+
+
+
+@N: : <a href="@N:MF322:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Retiming summary: 0 registers retimed to 0  
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 0
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		None
+
+
+		#####   END RETIMING REPORT  #####
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
+
+@N: : <a href="@N:FX164:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.   
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 187MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 187MB)
+
+Writing Analyst data base /home/gfa2226/fpga/fibonacci/rev_1/synwork/fibonacci_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 187MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 191MB)
+
+@N: : <a href="@N:BW103:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N: : <a href="@N:BW107:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Synopsys Constraint File capacitance units using default value of 1pF  
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 202MB)
+
+[font color=#A52A2A]@W:[a href="@W:MT420:@XP_HELP"]MT420[/a] : [!@TM:1673397681] | Found inferred clock fibonacci|clk with period 5.00ns. Please declare a user-defined clock on port clk.[/font] 
+
+
+[a name=timingReport33][/a]##### START OF TIMING REPORT #####[[/a]
+[a name=34][/a]# Timing Report written on Tue Jan 10 18:41:20 2023[/a]
+#
+
+
+Top view:               fibonacci
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: : <a href="@N:MT320:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N: : <a href="@N:MT322:@XP_HELP:@N::@XP_MSG">@XP_HELP</a><!@TM:0> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+[a name=performanceSummary35][/a]Performance Summary[/a]
+*******************
+
+
+Worst slack in design: -0.336
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+fibonacci|clk      200.0 MHz     529.9 MHz     5.000         1.887         3.113      inferred     Autoconstr_clkgroup_0
+System             525.9 MHz     447.0 MHz     1.901         2.237         -0.336     system       system_clkgroup      
+========================================================================================================================
+
+
+
+
+
+[a name=clockRelationships36][/a]Clock Relationships[/a]
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise  
+---------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack 
+---------------------------------------------------------------------------------------------------------------------
+System         System         |  No paths    -      |  1.901       0.580  |  No paths    -      |  1.901       -0.336
+System         fibonacci|clk  |  5.000       4.474  |  No paths    -      |  No paths    -      |  5.000       4.474 
+fibonacci|clk  System         |  5.000       3.113  |  No paths    -      |  5.000       3.675  |  No paths    -     
+=====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+[a name=interfaceInfo37][/a]Interface Information [/a]
+*********************
+
+No IO constraint found
+
+
+
+====================================
+[a name=clockReport38][/a]Detailed Report for Clock: fibonacci|clk[/a]
+====================================
+
+
+
+[a name=startingSlack39][/a]Starting Points with Worst Slack[/a]
+********************************
+
+               Starting                                          Arrival          
+Instance       Reference         Type     Pin     Net            Time        Slack
+               Clock                                                              
+----------------------------------------------------------------------------------
+state[0]       fibonacci|clk     DFFR     q       state[0]       0.040       3.113
+state[1]       fibonacci|clk     DFFR     q       state[1]       0.040       3.113
+minus_1[0]     fibonacci|clk     DFFR     q       minus_1[0]     0.040       3.186
+minus_1[1]     fibonacci|clk     DFFR     q       minus_1[1]     0.040       3.186
+minus_2[0]     fibonacci|clk     DFFR     q       minus_2[0]     0.040       3.203
+minus_2[1]     fibonacci|clk     DFFR     q       minus_2[1]     0.040       3.203
+minus_1[2]     fibonacci|clk     DFFR     q       minus_1[2]     0.040       3.212
+minus_1[3]     fibonacci|clk     DFFR     q       minus_1[3]     0.040       3.212
+minus_2[2]     fibonacci|clk     DFFR     q       minus_2[2]     0.040       3.229
+minus_2[3]     fibonacci|clk     DFFR     q       minus_2[3]     0.040       3.229
+==================================================================================
+
+
+[a name=endingSlack40][/a]Ending Points with Worst Slack[/a]
+******************************
+
+               Starting                                            Required          
+Instance       Reference         Type     Pin     Net              Time         Slack
+               Clock                                                                 
+-------------------------------------------------------------------------------------
+dout_c[1]      fibonacci|clk     LAT      d       dout_c_1[1]      4.910        3.113
+dout_c[2]      fibonacci|clk     LAT      d       dout_c_1[2]      4.910        3.113
+dout_c[3]      fibonacci|clk     LAT      d       dout_c_1[3]      4.910        3.113
+dout_c[4]      fibonacci|clk     LAT      d       dout_c_1[4]      4.910        3.113
+dout_c[5]      fibonacci|clk     LAT      d       dout_c_1[5]      4.910        3.113
+dout_c[6]      fibonacci|clk     LAT      d       dout_c_1[6]      4.910        3.113
+dout_c[7]      fibonacci|clk     LAT      d       dout_c_1[7]      4.910        3.113
+dout_c[8]      fibonacci|clk     LAT      d       dout_c_1[8]      4.910        3.113
+dout_c[9]      fibonacci|clk     LAT      d       dout_c_1[9]      4.910        3.113
+dout_c[10]     fibonacci|clk     LAT      d       dout_c_1[10]     4.910        3.113
+=====================================================================================
+
+
+
+[a name=worstPaths41][/a]Worst Path Information[/a]
+[a href="/home/gfa2226/fpga/fibonacci/rev_1/synlog/fibonacci_fpga_mapper.srr:srsf/home/gfa2226/fpga/fibonacci/rev_1/fibonacci.srs:fp:11651:12398:@XP_NAMES_GATE"]View Worst Path in Analyst[/a]
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.090
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.910
+
+    - Propagation time:                      1.797
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.113
+
+    Number of logic level(s):                2
+    Starting point:                          state[0] / q
+    Ending point:                            dout_c[1] / d
+    The start point is clocked by            fibonacci|clk [rising] on pin ck
+    The end   point is clocked by            System [rising] on pin ck
+
+Instance / Net                   Pin      Pin               Arrival     No. of    
+Name                    Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------
+state[0]                DFFR     q        Out     0.040     0.040       -         
+state[0]                Net      -        -       0.650     -           54        
+next_state_0_sqmuxa     LUT4     din1     In      -         0.690       -         
+next_state_0_sqmuxa     LUT4     dout     Out     0.092     0.782       -         
+next_state_0_sqmuxa     Net      -        -       0.526     -           19        
+dout_c_1[1]             LUT4     din1     In      -         1.309       -         
+dout_c_1[1]             LUT4     dout     Out     0.092     1.401       -         
+dout_c_1[1]             Net      -        -       0.397     -           1         
+dout_c[1]               LAT      d        In      -         1.797       -         
+==================================================================================
+Total path delay (propagation time + setup) of 1.887 is 0.314(16.6%) logic and 1.573(83.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+[a name=clockReport42][/a]Detailed Report for Clock: System[/a]
+====================================
+
+
+
+[a name=startingSlack43][/a]Starting Points with Worst Slack[/a]
+********************************
+
+             Starting                                      Arrival           
+Instance     Reference     Type       Pin     Net          Time        Slack 
+             Clock                                                           
+-----------------------------------------------------------------------------
+count[0]     System        LATNES     q       count[0]     0.040       -0.336
+count[1]     System        LATNER     q       count[1]     0.040       -0.323
+count[2]     System        LATNER     q       count[2]     0.040       -0.323
+count[3]     System        LATNER     q       count[3]     0.040       -0.323
+count[4]     System        LATNER     q       count[4]     0.040       -0.297
+count[5]     System        LATNER     q       count[5]     0.040       -0.297
+count[6]     System        LATNER     q       count[6]     0.040       -0.297
+count[7]     System        LATNER     q       count[7]     0.040       -0.297
+count[8]     System        LATNER     q       count[8]     0.040       -0.271
+count[9]     System        LATNER     q       count[9]     0.040       -0.271
+=============================================================================
+
+
+[a name=endingSlack44][/a]Ending Points with Worst Slack[/a]
+******************************
+
+                  Starting                                                       Required           
+Instance          Reference     Type       Pin     Net                           Time         Slack 
+                  Clock                                                                             
+----------------------------------------------------------------------------------------------------
+next_state[0]     System        LATR       d       next_state_1[0]               1.811        -0.336
+next_state[1]     System        LATR       d       next_state_1_i[0]             1.811        -0.336
+count[14]         System        LATNER     d       un9_count_1_cry_14_0_s[0]     1.811        0.580 
+count[15]         System        LATNER     d       un9_count_1_cry_14_0_s[1]     1.811        0.580 
+count[12]         System        LATNER     d       un9_count_1_cry_12_0_s[0]     1.811        0.606 
+count[13]         System        LATNER     d       un9_count_1_cry_12_0_s[1]     1.811        0.606 
+count[10]         System        LATNER     d       un9_count_1_cry_10_0_s[0]     1.811        0.632 
+count[11]         System        LATNER     d       un9_count_1_cry_10_0_s[1]     1.811        0.632 
+count[8]          System        LATNER     d       un9_count_1_cry_8_0_s[0]      1.811        0.658 
+count[9]          System        LATNER     d       un9_count_1_cry_8_0_s[1]      1.811        0.658 
+====================================================================================================
+
+
+
+[a name=worstPaths45][/a]Worst Path Information[/a]
+[a href="/home/gfa2226/fpga/fibonacci/rev_1/synlog/fibonacci_fpga_mapper.srr:srsf/home/gfa2226/fpga/fibonacci/rev_1/fibonacci.srs:fp:16800:19080:@XP_NAMES_GATE"]View Worst Path in Analyst[/a]
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1.901
+    - Setup time:                            0.090
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.811
+
+    - Propagation time:                      2.147
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.336
+
+    Number of logic level(s):                7
+    Starting point:                          count[0] / q
+    Ending point:                            next_state[1] / d
+    The start point is clocked by            System [falling] on pin ckn
+    The end   point is clocked by            System [rising] on pin ck
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                              Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+count[0]                          LATNES     q        Out     0.040     0.040       -         
+count[0]                          Net        -        -       0.426     -           3         
+next_state10_0_I_8                LUT4       din0     In      -         0.466       -         
+next_state10_0_I_8                LUT4       dout     Out     0.092     0.558       -         
+next_state10_0_I_8                Net        -        -       0.397     -           1         
+next_state10_0_I_14_RNI9T64       ALU        b[0]     In      -         0.954       -         
+next_state10_0_I_14_RNI9T64       ALU        cout     Out     0.156     1.110       -         
+next_state10_0_data_tmp[1]        Net        -        -       0.000     -           1         
+next_state10_0_I_20_RNIS5O6       ALU        cin      In      -         1.110       -         
+next_state10_0_I_20_RNIS5O6       ALU        cout     Out     0.026     1.136       -         
+next_state10_0_data_tmp[3]        Net        -        -       0.000     -           1         
+next_state10_0_I_38_RNIOH99       ALU        cin      In      -         1.136       -         
+next_state10_0_I_38_RNIOH99       ALU        cout     Out     0.026     1.162       -         
+next_state10_0_data_tmp[5]        Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB       ALU        cin      In      -         1.162       -         
+next_state10_0_I_26_RNIKRQB       ALU        cout     Out     0.026     1.188       -         
+next_state10_0_I_39fd             Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB_0     ALU        cin      In      -         1.188       -         
+next_state10_0_I_26_RNIKRQB_0     ALU        s[0]     Out     0.057     1.245       -         
+next_state10_0_data_tmp[7]        Net        -        -       0.413     -           2         
+next_state_1_i[0]                 LUT4       din1     In      -         1.658       -         
+next_state_1_i[0]                 LUT4       dout     Out     0.092     1.750       -         
+next_state_1_i[0]                 Net        -        -       0.397     -           1         
+next_state[1]                     LATR       d        In      -         2.147       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 2.237 is 0.605(27.0%) logic and 1.632(73.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1.901
+    - Setup time:                            0.090
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.811
+
+    - Propagation time:                      2.147
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.336
+
+    Number of logic level(s):                7
+    Starting point:                          count[0] / q
+    Ending point:                            next_state[0] / d
+    The start point is clocked by            System [falling] on pin ckn
+    The end   point is clocked by            System [rising] on pin ck
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                              Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+count[0]                          LATNES     q        Out     0.040     0.040       -         
+count[0]                          Net        -        -       0.426     -           3         
+next_state10_0_I_8                LUT4       din0     In      -         0.466       -         
+next_state10_0_I_8                LUT4       dout     Out     0.092     0.558       -         
+next_state10_0_I_8                Net        -        -       0.397     -           1         
+next_state10_0_I_14_RNI9T64       ALU        b[0]     In      -         0.954       -         
+next_state10_0_I_14_RNI9T64       ALU        cout     Out     0.156     1.110       -         
+next_state10_0_data_tmp[1]        Net        -        -       0.000     -           1         
+next_state10_0_I_20_RNIS5O6       ALU        cin      In      -         1.110       -         
+next_state10_0_I_20_RNIS5O6       ALU        cout     Out     0.026     1.136       -         
+next_state10_0_data_tmp[3]        Net        -        -       0.000     -           1         
+next_state10_0_I_38_RNIOH99       ALU        cin      In      -         1.136       -         
+next_state10_0_I_38_RNIOH99       ALU        cout     Out     0.026     1.162       -         
+next_state10_0_data_tmp[5]        Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB       ALU        cin      In      -         1.162       -         
+next_state10_0_I_26_RNIKRQB       ALU        cout     Out     0.026     1.188       -         
+next_state10_0_I_39fd             Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB_0     ALU        cin      In      -         1.188       -         
+next_state10_0_I_26_RNIKRQB_0     ALU        s[0]     Out     0.057     1.245       -         
+next_state10_0_data_tmp[7]        Net        -        -       0.413     -           2         
+next_state_1_i_m2[0]              LUT4       din1     In      -         1.658       -         
+next_state_1_i_m2[0]              LUT4       dout     Out     0.092     1.750       -         
+next_state_1[0]                   Net        -        -       0.397     -           1         
+next_state[0]                     LATR       d        In      -         2.147       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 2.237 is 0.605(27.0%) logic and 1.632(73.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1.901
+    - Setup time:                            0.090
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.811
+
+    - Propagation time:                      2.134
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.323
+
+    Number of logic level(s):                7
+    Starting point:                          count[1] / q
+    Ending point:                            next_state[1] / d
+    The start point is clocked by            System [falling] on pin ckn
+    The end   point is clocked by            System [rising] on pin ck
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                              Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+count[1]                          LATNER     q        Out     0.040     0.040       -         
+count[1]                          Net        -        -       0.413     -           2         
+next_state10_0_I_8                LUT4       din1     In      -         0.453       -         
+next_state10_0_I_8                LUT4       dout     Out     0.092     0.545       -         
+next_state10_0_I_8                Net        -        -       0.397     -           1         
+next_state10_0_I_14_RNI9T64       ALU        b[0]     In      -         0.942       -         
+next_state10_0_I_14_RNI9T64       ALU        cout     Out     0.156     1.098       -         
+next_state10_0_data_tmp[1]        Net        -        -       0.000     -           1         
+next_state10_0_I_20_RNIS5O6       ALU        cin      In      -         1.098       -         
+next_state10_0_I_20_RNIS5O6       ALU        cout     Out     0.026     1.124       -         
+next_state10_0_data_tmp[3]        Net        -        -       0.000     -           1         
+next_state10_0_I_38_RNIOH99       ALU        cin      In      -         1.124       -         
+next_state10_0_I_38_RNIOH99       ALU        cout     Out     0.026     1.150       -         
+next_state10_0_data_tmp[5]        Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB       ALU        cin      In      -         1.150       -         
+next_state10_0_I_26_RNIKRQB       ALU        cout     Out     0.026     1.176       -         
+next_state10_0_I_39fd             Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB_0     ALU        cin      In      -         1.176       -         
+next_state10_0_I_26_RNIKRQB_0     ALU        s[0]     Out     0.057     1.233       -         
+next_state10_0_data_tmp[7]        Net        -        -       0.413     -           2         
+next_state_1_i[0]                 LUT4       din1     In      -         1.646       -         
+next_state_1_i[0]                 LUT4       dout     Out     0.092     1.738       -         
+next_state_1_i[0]                 Net        -        -       0.397     -           1         
+next_state[1]                     LATR       d        In      -         2.134       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 2.224 is 0.605(27.2%) logic and 1.619(72.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      1.901
+    - Setup time:                            0.090
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.811
+
+    - Propagation time:                      2.134
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.323
+
+    Number of logic level(s):                7
+    Starting point:                          count[2] / q
+    Ending point:                            next_state[1] / d
+    The start point is clocked by            System [falling] on pin ckn
+    The end   point is clocked by            System [rising] on pin ck
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                              Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+count[2]                          LATNER     q        Out     0.040     0.040       -         
+count[2]                          Net        -        -       0.413     -           2         
+next_state10_0_I_14               LUT4       din0     In      -         0.453       -         
+next_state10_0_I_14               LUT4       dout     Out     0.092     0.545       -         
+next_state10_0_I_14               Net        -        -       0.397     -           1         
+next_state10_0_I_14_RNI9T64       ALU        b[1]     In      -         0.942       -         
+next_state10_0_I_14_RNI9T64       ALU        cout     Out     0.156     1.098       -         
+next_state10_0_data_tmp[1]        Net        -        -       0.000     -           1         
+next_state10_0_I_20_RNIS5O6       ALU        cin      In      -         1.098       -         
+next_state10_0_I_20_RNIS5O6       ALU        cout     Out     0.026     1.124       -         
+next_state10_0_data_tmp[3]        Net        -        -       0.000     -           1         
+next_state10_0_I_38_RNIOH99       ALU        cin      In      -         1.124       -         
+next_state10_0_I_38_RNIOH99       ALU        cout     Out     0.026     1.150       -         
+next_state10_0_data_tmp[5]        Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB       ALU        cin      In      -         1.150       -         
+next_state10_0_I_26_RNIKRQB       ALU        cout     Out     0.026     1.176       -         
+next_state10_0_I_39fd             Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB_0     ALU        cin      In      -         1.176       -         
+next_state10_0_I_26_RNIKRQB_0     ALU        s[0]     Out     0.057     1.233       -         
+next_state10_0_data_tmp[7]        Net        -        -       0.413     -           2         
+next_state_1_i[0]                 LUT4       din1     In      -         1.646       -         
+next_state_1_i[0]                 LUT4       dout     Out     0.092     1.738       -         
+next_state_1_i[0]                 Net        -        -       0.397     -           1         
+next_state[1]                     LATR       d        In      -         2.134       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 2.224 is 0.605(27.2%) logic and 1.619(72.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      1.901
+    - Setup time:                            0.090
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.811
+
+    - Propagation time:                      2.134
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.323
+
+    Number of logic level(s):                7
+    Starting point:                          count[3] / q
+    Ending point:                            next_state[1] / d
+    The start point is clocked by            System [falling] on pin ckn
+    The end   point is clocked by            System [rising] on pin ck
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                              Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+count[3]                          LATNER     q        Out     0.040     0.040       -         
+count[3]                          Net        -        -       0.413     -           2         
+next_state10_0_I_14               LUT4       din1     In      -         0.453       -         
+next_state10_0_I_14               LUT4       dout     Out     0.092     0.545       -         
+next_state10_0_I_14               Net        -        -       0.397     -           1         
+next_state10_0_I_14_RNI9T64       ALU        b[1]     In      -         0.942       -         
+next_state10_0_I_14_RNI9T64       ALU        cout     Out     0.156     1.098       -         
+next_state10_0_data_tmp[1]        Net        -        -       0.000     -           1         
+next_state10_0_I_20_RNIS5O6       ALU        cin      In      -         1.098       -         
+next_state10_0_I_20_RNIS5O6       ALU        cout     Out     0.026     1.124       -         
+next_state10_0_data_tmp[3]        Net        -        -       0.000     -           1         
+next_state10_0_I_38_RNIOH99       ALU        cin      In      -         1.124       -         
+next_state10_0_I_38_RNIOH99       ALU        cout     Out     0.026     1.150       -         
+next_state10_0_data_tmp[5]        Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB       ALU        cin      In      -         1.150       -         
+next_state10_0_I_26_RNIKRQB       ALU        cout     Out     0.026     1.176       -         
+next_state10_0_I_39fd             Net        -        -       0.000     -           1         
+next_state10_0_I_26_RNIKRQB_0     ALU        cin      In      -         1.176       -         
+next_state10_0_I_26_RNIKRQB_0     ALU        s[0]     Out     0.057     1.233       -         
+next_state10_0_data_tmp[7]        Net        -        -       0.413     -           2         
+next_state_1_i[0]                 LUT4       din1     In      -         1.646       -         
+next_state_1_i[0]                 LUT4       dout     Out     0.092     1.738       -         
+next_state_1_i[0]                 Net        -        -       0.397     -           1         
+next_state[1]                     LATR       d        In      -         2.134       -         
+==============================================================================================
+Total path delay (propagation time + setup) of 2.224 is 0.605(27.2%) logic and 1.619(72.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 202MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 202MB)
+
+---------------------------------------
+[a name=resourceUsage46][/a]Resource Usage Report for fibonacci [/a]
+
+Mapping to part: ac22ihd1000f53c1
+Cell usage:
+ALU        29 uses
+DFFE         1 use
+DFFR         51 uses
+LAT             16 uses
+LATNER          47 uses
+LATNES          2 uses
+LATR            2 uses
+LUT4            38 uses
+
+
+Resource usage inside Blackboxes:
+Block RAM : 0 use
+Logic RAM : 0 use
+BMACC56 : 0 use
+ALU2 : 0 use
+MUX2 : 0 use
+LUT4 : 0 use
+DFF : 0 use
+
+I/O ports: 36
+I/O primitives: 36
+PADIN          19 uses
+PADOUT         17 uses
+
+
+RAM/ROM usage summary
+Total BRAM :   0 + 0 = 0 of 1026 (0%)
+Total LRAM :   0 + 0 = 0 of 6156 (0%)
+
+
+DSP usage summary: 
+Total DSP:	0 + 0 = 0 of 756 (0%)
+
+ALU usage summary: 
+Total ALU:   29 + 0 of 139968 (0%)
+
+Mapping Summary:
+No. of Resources used of Total No. of Resource Available: 
+Total LUT4:   38  + 0 = 38 of 699840(0.0%)
+Total DFF :   52 + 0 = 52 of 699840 (0.0%)
+Total MUX2 :   0 + 0 = 0 of 699840 (0.0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 202MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jan 10 18:41:21 2023
+
+###########################################################]
+
+[/pre][/samp][/body][/html]
+
+</pre></samp></body></html>

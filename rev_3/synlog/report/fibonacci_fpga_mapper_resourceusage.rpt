@@ -1,0 +1,47 @@
+---------------------------------------
+Resource Usage Report for fibonacci 
+
+Mapping to part: ac22ihd1000f53c1
+Cell usage:
+ALU        21 uses
+DFFE         1 use
+DFFR         67 uses
+LAT             16 uses
+LATNER          47 uses
+LATNES          2 uses
+LATR            2 uses
+LUT4            38 uses
+
+
+Resource usage inside Blackboxes:
+Block RAM : 0 use
+Logic RAM : 0 use
+BMACC56 : 0 use
+ALU2 : 0 use
+MUX2 : 0 use
+LUT4 : 0 use
+DFF : 0 use
+
+I/O ports: 36
+I/O primitives: 36
+PADIN          19 uses
+PADOUT         17 uses
+
+
+RAM/ROM usage summary
+Total BRAM :   0 + 0 = 0 of 1026 (0%)
+Total LRAM :   0 + 0 = 0 of 6156 (0%)
+
+
+DSP usage summary: 
+Total DSP:	0 + 0 = 0 of 756 (0%)
+
+ALU usage summary: 
+Total ALU:   21 + 0 of 139968 (0%)
+
+Mapping Summary:
+No. of Resources used of Total No. of Resource Available: 
+Total LUT4:   38  + 0 = 38 of 699840(0.0%)
+Total DFF :   68 + 0 = 68 of 699840 (0.0%)
+Total MUX2 :   0 + 0 = 0 of 699840 (0.0%)
+

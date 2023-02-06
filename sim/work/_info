@@ -1,0 +1,70 @@
+m255
+K4
+z2
+!s11f vlog 2019.3_2 2019.09, Sep 24 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gfa2226/fpga/fibonacci/sim
+T_opt
+Z1 !s110 1673423750
+V^BhEBb@C48_0[P1IRCRdd1
+04 12 4 work fibonacci_tb fast 0
+=1-000ae431a4f1-63be6b86-74274-2902cf
+o-quiet -auto_acc_if_foreign -work work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OE;O;2019.3_2;69
+vfibonacci
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 K9gRRa_2Mj:>gXU^HBF5_1
+!s11b kfz=NMUdh0Eo@:?A[]A0K0
+I@]PbX@6=D3Li:8mM;QiPn2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1673399309
+8../sv/fibonacci.sv
+F../sv/fibonacci.sv
+!i122 -1
+L0 3
+Z5 OE;L;2019.3_2;69
+r1
+!s85 0
+31
+Z6 !s108 1673423750.000000
+!s107 ../sv/fibonacci.sv|
+!s90 -reportprogress|300|-work|work|../sv/fibonacci.sv|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfibonacci_tb
+R3
+R1
+!i10b 1
+!s100 56M7ngL=75h;ZfP;jA4P[1
+!s11b `oR[V:?gfPXd<ak`fjAa52
+I8GOae@3YiN=3M3TgK^_@[2
+R4
+S1
+R0
+w1673395458
+8../sv/fibonacci_tb.sv
+F../sv/fibonacci_tb.sv
+!i122 -1
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../sv/fibonacci_tb.sv|
+!s90 -reportprogress|300|-work|work|../sv/fibonacci_tb.sv|
+!i113 0
+R7
+R2

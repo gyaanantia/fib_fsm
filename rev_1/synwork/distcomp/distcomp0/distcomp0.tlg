@@ -1,0 +1,27 @@
+@N:: Applying property .distcompmodetop with value 1 on module fibonacci in library work
+@N:: Applying property .distcompnoprune with value 1 on module fibonacci in library work
+@N:: Applying property .noprune with value 1 on module fibonacci in library work
+Selecting top level module fibonacci
+@N: CG364 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":3:7:3:15|Synthesizing module fibonacci in library work.
+Running optimization stage 1 on fibonacci .......
+@W: CL118 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|Latch generated from always block for signal next_state[1:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|Latch generated from always block for signal dout_c[15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|Latch generated from always block for signal minus_2_c[15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|Latch generated from always block for signal minus_1_c[15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|Latch generated from always block for signal count[15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|Latch generated from always block for signal done_c; possible missing assignment in an if or case statement.
+@A: CL282 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":18:2:18:10|Feedback mux created for signal start_clk. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+@W: CL217 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":38:4:38:7|always_comb does not infer combinatorial logic
+Running optimization stage 2 on fibonacci .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/gfa2226/fpga/fibonacci/rev_1/synwork//distcomp/distcomp0/distcomp0.rt.csv
+

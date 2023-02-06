@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>/home/gfa2226/fpga/fibonacci/rev_3/synlog/report/fibonacci_fpga_mapper_resourceusage.rpt</data>
+<title>Resource Usage</title>
+</report_link>
+<report_link name="Hierarchical Area report">
+<data>/home/gfa2226/fpga/fibonacci/rev_3/synlog/report/fibonacci_fpga_mapper_hier_area_report.xml</data>
+<title>Hierarchical Area Report</title>
+</report_link>
+<parameter tooltip="Total DFF used" name="DFF">
+<data>68 of 699840(0 %)</data>
+</parameter>
+<parameter tooltip="Total BRAM used" name="BRAM">
+<data>0 of 1026(0 %)</data>
+</parameter>
+<parameter tooltip="Total LUT4 used" name="LUT4">
+<data>38 of 699840(0 %)</data>
+</parameter>
+<parameter tooltip="Total LRAM used" name="LRAM">
+<data>0 of 6156(0 %)</data>
+</parameter>
+<parameter tooltip="Total BMACC used" name="BMACC">
+<data>0 of 756(0 %)</data>
+</parameter>
+<parameter tooltip="Total ALU used" name="ALU">
+<data>21 of 139968(0 %)</data>
+</parameter>
+<parameter tooltip="Total I/O ports used" name="I/O ports">
+<data>36 of 960(3 %)</data>
+</parameter>
+</report_table>

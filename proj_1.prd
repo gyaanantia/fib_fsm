@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version O-2018.09-SP1
+#--  Project file /home/gfa2226/fpga/fibonacci/proj_1.prd
+#--  Written on Tue Jan 10 19:23:24 2023
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

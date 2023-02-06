@@ -1,0 +1,53 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.7 (Ootpa)
+Hostname: joker.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 62381
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_3
+
+#### START OF AREA REPORT #####[
+
+Part:			AC22IHD1000F53C1 (Achronix)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   fibonacci   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      68                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block fibonacci:	68 (29.57 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     38                 100 %                
+ALU      21                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block fibonacci:	59 (25.65 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     36                 100 %                
+=================================================
+Total IO PADS in the block fibonacci:	36 (15.65 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

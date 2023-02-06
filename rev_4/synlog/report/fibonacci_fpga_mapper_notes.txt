@@ -1,0 +1,17 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MT206 |Auto Constrain mode is enabled
+@N: MF578 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":40:4:40:7|Incompatible asynchronous control logic preventing generated clock conversion of minus_1_c[15] (in view: work.fibonacci(verilog)). Check "Force Generated Clock Conversion with Asynchronous Signals" in "GCC & Prototyping Tools" tab or set force_async_genclk_conv option to 1 in project file to enable. This should only be set if asynchronous control logic cannot cause a clock edge.
+@N: BN362 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":18:2:18:10|Removing sequential instance state[1] (in view: work.fibonacci(verilog)) of type view:ALTERA_APEX.S_DFF_N(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":18:2:18:10|Removing sequential instance state[0] (in view: work.fibonacci(verilog)) of type view:ALTERA_APEX.S_DFF_N(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":18:2:18:10|Removing sequential instance state_0[0] (in view: work.fibonacci(verilog)) of type view:ALTERA_APEX.S_DFF_N(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/gfa2226/fpga/fibonacci/sv/fibonacci.sv":18:2:18:10|Removing sequential instance state_0[1] (in view: work.fibonacci(verilog)) of type view:ALTERA_APEX.S_DFF_N(PRIM) because it does not drive other instances.
+@N: MF321 |2 registers to be packed into RAMs/DSPs blocks 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.

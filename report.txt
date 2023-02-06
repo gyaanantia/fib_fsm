@@ -1,0 +1,18 @@
+# Redone report using CYCLONE IV E Synthesis
+
+Total simulation cycle count: 43
+Resource utilization:
+    ATOMS: 41
+    ARITHMETIC MODE: 0
+    REGISTERS: 70
+    SYNC RAMS: 0
+    MACs: 0
+    LUTs for combinational functions (total_luts): 73
+    I/O Pins: 36
+    DSP Blocks (dsp_used): 0 (266)
+    Non I/O Registers (non_io_reg): 70
+    I/O registers (total_io_reg): 0
+    Memory Bits: 0
+
+Timing:
+    Maximum Frequency: 1780.0 MHz
